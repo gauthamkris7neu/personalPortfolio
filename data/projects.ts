@@ -14,7 +14,7 @@ export const projects: Project[] = [
     description:
       "A personalized interview preparation system using Vue.js and FastAPI with DeepSeek R1 LLM integration. Features dynamic role-specific technical questions, real-time response analysis, and an adaptive algorithm that adjusts question difficulty based on performance.",
     image: "/images/PrepGenius.png",
-    link: "#",
+    link: "https://github.com/gauthamkris7neu/interview-questions-api",
     technologies: ["Vue.js", "FastAPI", "DeepSeek R1 LLM", "Adaptive Learning"],
   },
   {
