@@ -16,44 +16,44 @@ export function ContactForm() {
   }
 
   return (
-    <Card className="border-blue-100 bg-white">
+    <Card className="border-blue-100 bg-white dark:bg-gray-800 dark:border-gray-700">
       <CardContent className="pt-6">
         <form className="space-y-4" onSubmit={handleSubmit} aria-label="Contact form">
           <div className="space-y-2">
-            <Label htmlFor="name">Name</Label>
+            <Label htmlFor="name" className="dark:text-gray-200">Name</Label>
             <Input
               id="name"
               name="name"
               placeholder="Your name"
-              className="border-blue-200 focus-visible:ring-blue-500"
+              className="border-blue-200 focus-visible:ring-blue-500 dark:border-gray-700 dark:bg-gray-900 dark:text-white"
               aria-required="true"
               required
             />
           </div>
           <div className="space-y-2">
-            <Label htmlFor="email">Email</Label>
+            <Label htmlFor="email" className="dark:text-gray-200">Email</Label>
             <Input
               id="email"
               name="email"
               type="email"
               placeholder="Your email"
-              className="border-blue-200 focus-visible:ring-blue-500"
+              className="border-blue-200 focus-visible:ring-blue-500 dark:border-gray-700 dark:bg-gray-900 dark:text-white"
               aria-required="true"
               required
             />
           </div>
           <div className="space-y-2">
-            <Label htmlFor="message">Message</Label>
+            <Label htmlFor="message" className="dark:text-gray-200">Message</Label>
             <Textarea
               id="message"
               name="message"
               placeholder="Your message"
-              className="min-h-[120px] border-blue-200 focus-visible:ring-blue-500"
+              className="min-h-[120px] border-blue-200 focus-visible:ring-blue-500 dark:border-gray-700 dark:bg-gray-900 dark:text-white"
               aria-required="true"
               required
             />
           </div>
-          <Button type="submit" className="w-full bg-blue-700 hover:bg-blue-800 text-white">
+          <Button type="submit" className="w-full bg-blue-700 hover:bg-blue-800 text-white dark:bg-blue-600 dark:hover:bg-blue-700">
             <Send className="mr-2 h-4 w-4" aria-hidden="true" /> Send Message
           </Button>
         </form>

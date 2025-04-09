@@ -7,11 +7,11 @@ interface ProjectsSectionProps {
 
 export function ProjectsSection({ projects }: ProjectsSectionProps) {
   return (
-    <section id="projects" className="py-12 md:py-16 lg:py-24" aria-labelledby="projects-heading">
+    <section id="projects" className="py-12 md:py-16 lg:py-24 dark:bg-gray-900" aria-labelledby="projects-heading">
       <div className="container px-4 md:px-6">
         <h2
           id="projects-heading"
-          className="mb-8 md:mb-12 text-center text-2xl md:text-3xl font-bold tracking-tight text-blue-950 lg:text-4xl"
+          className="mb-8 md:mb-12 text-center text-2xl md:text-3xl font-bold tracking-tight text-blue-950 lg:text-4xl dark:text-white"
         >
           My Projects
         </h2>
